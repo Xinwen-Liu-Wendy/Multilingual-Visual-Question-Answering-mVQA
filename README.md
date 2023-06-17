@@ -12,6 +12,6 @@ Three transformer-based models were built for this project. The first one is ViT
 All the data loading, preprocessing, model, training and evaluation codes are provided in .ipynb.
 
 # Results
-<img src="./Prediction.png" alt="alt text" width="800" height="800">
+<img src="./Prediction.png" alt="alt text" width="800" height="400">
 
 
