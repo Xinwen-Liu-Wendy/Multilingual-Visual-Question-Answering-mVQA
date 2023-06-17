@@ -13,6 +13,6 @@ All the data loading, preprocessing, model, training and evaluation codes are pr
 
 # Results
 Following are the demonstration results of our model (ViT + mBART) in three languages. Q represents question, A represents answer, Pred represents prediction.
-<img src="./Prediction.png" alt="alt text" width="1000" height="300">
+<img src="./Prediction.png" alt="alt text" width="1000" height="250">
 
 
