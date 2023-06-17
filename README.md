@@ -12,7 +12,7 @@ Three transformer-based models were built for this project. The first one is ViT
 All the data loading, preprocessing, model, training and evaluation codes are provided in .ipynb.
 
 # Results
-Following are the demonstration results of our model (ViT + mBART) in three languages. Q represents question, A represents answer, Pred represents prediction.
+Following are the demonstration results of our model (ViT + mBART) in three languages. Q represents question, A represents answer, Pred represents prediction results from the model.
 <img src="./Prediction.png" alt="alt text" width="1000" height="250">
 
 
