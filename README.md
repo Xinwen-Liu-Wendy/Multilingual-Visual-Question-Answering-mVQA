@@ -3,10 +3,10 @@ In this project, we built three transformer-based models for multilingual visual
 Work done by [Xinwen Liu](https://github.com/Xinwen-Liu-Wendy), [Joseph Lin](https://github.com/josephhlinn)
 
 ## Dataset
-We used the dataset for the VLSP 2022 EVJVQA Challenge (https://codalab.lisn.upsaclay.fr/competitions/12274), which contains 23,785 question and answer pairs (QAs) in three languages (English, Japanese, Vietanmese).
+We used the dataset for the VLSP 2022 EVJVQA Challenge (https://codalab.lisn.upsaclay.fr/competitions/12274), which contains 23,785 question and answer pairs (QAs) in three languages (English, Japanese, Vietnamese).
 
 ## Models
-Three transformer-based models were built for this project. The first one is ViT + mT5, the second model is ViTMAE + mT5, and the third model is ViT + mBART. Codes of each model are available in the corresponding .ipynb file. 
+Three transformer-based models were built for this project. The first one is ViT + mT5, the second model is ViTMAE + mT5, and the third model is ViT + mBART. Codes codes for each model are available in the corresponding .ipynb file. We want to compare the performances of different vision models and language models for this multi-modal task.
 
 ## Reproduce experiments
 All the data loading, preprocessing, model, training and evaluation codes are provided in .ipynb.
