@@ -11,8 +11,8 @@ Three transformer-based models were built for this project. The first one is ViT
 ## Reproduce experiments
 All the data loading, preprocessing, model, training and evaluation codes are provided in .ipynb.
 
-## Results
-Following are the demonstration results of our model (ViT + mBART) in three languages. Q represents question, A represents answer, Pred represents prediction results from the model.
+## Performance
+In our experiments, we found ViT + mBART has the best performance for F1 score (0.3427) while ViTMAE + mT5 has the best performance on BLEU metric (0.2650). Following are the demonstration results of our model (ViT + mBART) in three languages. Q represents question, A represents answer, Pred represents prediction results from the model.
 <img src="./Prediction.png" alt="alt text" width="1000" height="220">
 
 
