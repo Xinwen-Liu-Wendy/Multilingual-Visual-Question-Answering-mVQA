@@ -6,7 +6,7 @@ Work done by [Xinwen Liu](https://github.com/Xinwen-Liu-Wendy), [Joseph Lin](htt
 We used the dataset for the VLSP 2022 EVJVQA Challenge (https://codalab.lisn.upsaclay.fr/competitions/12274), which contains 23,785 question and answer pairs (QAs) in three languages (English, Japanese, Vietnamese).
 
 ## Models
-The general model architecture for mVQA is presented below, where a vision model is required for image embeddings, a text encoder is needed for text embeddings, and a text decoder is needed for generating the final answer. The image embeddings and text embeddings were concatenated as the input of the text decoder. To compare the effects of different vision models and language models for mVQA, three transformer-based models were built for this project. The first one is ViT + mT5, the second model is ViTMAE + mT5, and the third model is ViT + mBART. Codes for each model are available in the corresponding .ipynb file. 
+The general model architecture for mVQA is presented below, where a vision model is required for image embeddings, a text encoder is needed for text embeddings, and a text decoder is needed for generating the final answer. The image embeddings and text embeddings were concatenated as the input of the text decoder. To compare the effects of different vision models and language models for mVQA, three transformer-based models were built for this project. The first one is ViT + mT5, the second model is ViTMAE + mT5, and the third model is ViT + mBART. Codes for each model are available in the corresponding .ipynb file. <br>
 <img src="./model architecture.png" alt="alt text" width="400" height="300">
 
 ## Reproduce experiments
