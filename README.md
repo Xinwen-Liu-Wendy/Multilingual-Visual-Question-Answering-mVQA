@@ -11,8 +11,8 @@ The general model architecture for mVQA is presented below, where a vision model
   <img width="400" height="400" src="./model architecture.png">
 </p>
 
-## Reproduce experiments
-All the data loading, preprocessing, model, training and evaluation codes are provided in .ipynb. Models were built from scratch, referencing the source codes of transformer models in Huggingface.
+## Code
+All the data loading, preprocessing, model construction, training and evaluation codes are provided in .ipynb. Each model contains its own jupyter notebook (.ipynb). Models were built from scratch, referencing the source codes of transformer models in Huggingface.
 
 ## Performance
 In our experiments, we found ViT + mBART has the best performance for F1 score (0.3427) while ViTMAE + mT5 has the best performance on BLEU metric (0.2650). Following are the demonstration results of our model (ViT + mBART) in three languages. Q represents question, A represents answer, Pred represents prediction results from the model.
