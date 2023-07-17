@@ -7,7 +7,7 @@ We used the dataset for the VLSP 2022 EVJVQA Challenge (https://codalab.lisn.ups
 
 ## Models
 The general model architecture for mVQA is presented below, where a vision model is required for image embeddings, a text encoder is needed for text embeddings, and a text decoder is needed for generating the final answer. The image embeddings and text embeddings were concatenated as the input of the text decoder. To compare the effects of different vision models and language models for mVQA, three transformer-based models were built for this project. The first one is ViT + mT5, the second model is ViTMAE + mT5, and the third model is ViT + mBART. Codes for each model are available in the corresponding .ipynb file. <br>
-<img src="./model architecture.png" alt="alt text" width="400" height="300">
+<img src="./model architecture.png" alt="alt text" width="400" height="400">
 
 ## Reproduce experiments
 All the data loading, preprocessing, model, training and evaluation codes are provided in .ipynb. Models were built from scratch, referencing the source codes of transformer models in Huggingface.
